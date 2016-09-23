@@ -1,0 +1,27 @@
+/* nav { position: ; }
+.left {
+    float: left;
+    margin-left: auto;
+}
+.left li {
+    display: inline-block;
+    padding: 20px;
+}
+.logga {
+    display: inline-block;
+    align-items: center;
+}
+.right {
+    float: right;
+    margin-right: auto;
+}
+.right li {
+    display: inline-block;
+    padding: 20px;
+}
+.left a { text-decoration: none; }
+.right a { text-decoration: none; }
+li { list-style-type: none; }
+li:hover {}
+
+*/
