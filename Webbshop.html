@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- denna första row är header-elementet och ska vara samma för alla sidor -->
     <div class="container">
         <div class="row">
 			<section class="col-lg-4 align-left">
@@ -24,20 +25,65 @@
 			</section>
         </div></div>
 		
-        
-        <div class="col-lg-10" id="shopping-cart">
+        <section class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1" id="shopping-cart">
             <!-- Gå till kassan. Här kommer produkterna man valt att ligga med bild och text, välj antal och en knapp med "Gå till kassan" -->
-        </div>
+            
+            <h3><i class="fa fa-shopping-cart"></i> Kundvagn</h3>
+            <div class="row" id="head">
+                <section class="col-md-10 col-md-offset-1">
+                    <h4 class="col-md-3">Produkt</h4>
+                    <h4 class="col-md-3">Antal</h4>
+                    <h4 class="col-md-3">Pris</h4>
+                    <h4 class="col-md-3">Ta bort</h4>
+                </section>
+            </div>
+            <div class="row" id="first-row">
+                <section class="col-md-10 col-md-offset-1">
+                    <img class="col-md-3" src="#"/>
+                    <form class="col-md-3">
+                        <datalist id="antal">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>5+</option>
+                        </datalist>
+                        <input type="text" list="antal"/>
+                    </form>
+                    <p class="col-md-3">???</p>
+                    <a href="#"><i class="fa fa-trash col-md-3"></i></a>
+                </section>
+            </div>
+            <div class="row" id="second-row">
+                <section class="col-md-10 col-md-offset-1">
+                    <img class="col-md-3" src="#"/>
+                    <form class="col-md-3">
+                    <datalist id="antal">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>5+</option>
+                    </datalist>
+                    <input type="text" list="antal"/>
+                    </form>
+                    <p class="col-md-3">???</p>
+                    <a href="#"><i class="fa fa-trash col-md-3"></i></a>
+                </section>
+            </div>   
+        </section>
     
         <footer>
-            <section class="col-lg-6">
-                <div class="col-lg-6">
+            <section class="col-md-6">
+                <div class="col-md-6">
                     <h4>Kundservice</h4>
                     <a href="#">Kontakt</a>
                     <a href="#">Köpvillkor</a>
                     <a href="#">Leverans</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <h4>Sociala medier</h4>
                     <a href="#"><i class="fa fa-facebook-official"></i> Facebook</a>
                     <a href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
@@ -45,7 +91,7 @@
                     <a href="#"><i class="fa fa-youtube-square"></i> YouTube</a>
                 </div>
             </section>
-            <section class="col-lg-6">
+            <section class="col-md-6">
                 <div>
                     
                 </div>

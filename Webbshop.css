@@ -14,5 +14,17 @@ footer a {
 
 #shopping-cart {
     position: relative;
-    
+    border: 1px solid black;
+    background-color: lightblue;
+}
+[list="antal"] {
+    width: 40px;
+}
+
+#head, #first-row, #second-row {
+    margin-bottom: 30px;
+}
+.fa-trash {
+    font-size: 1.2em;
+    text-align: right;
 }
