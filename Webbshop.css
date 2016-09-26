@@ -1,0 +1,18 @@
+.align-left { 
+    display: flex;
+    justify-content: flex-start;
+    vertical-align:;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    display: block;
+}
+
+#shopping-cart {
+    position: relative;
+    
+}
