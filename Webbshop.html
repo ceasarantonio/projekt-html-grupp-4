@@ -7,28 +7,33 @@
     <link type="text/css" rel="stylesheet" href="Webbshop.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+    
 <body>
     <!-- denna första row är header-elementet och ska vara samma för alla sidor -->
     <div class="container">
         <div class="row">
-			<section class="col-lg-4 align-left">
-				<a class="col-lg-4" href="Startsida.html"><i class="fa fa-home"></i> Startsida</a>	
-				<a class="col-lg-4" href="F%C3%B6retag.html">Om oss</a>
-				<a class="col-lg-4" href="Forum.html">Diskussion</a>
+			<section class="col-md-4 align-left">
+				<a class="col-md-4" href="Startsida.html"><i class="fa fa-home"></i> Startsida</a>	
+				<a class="col-md-4" href="F%C3%B6retag.html">Om oss</a>
+				<a class="col-md-4" href="Forum.html">Diskussion</a>
 			</section>
-            <section class="col-lg-4">
-                <img src="Logga 1.png"/>
+            <section class="col-md-4">
+                <img src="Logga 1.png"  />
             </section>
-            <section class="col-lg-4 align-right">
-				<a class="col-lg-4" href="Webbshop.html"><i class="fa fa-shopping-cart"></i> Webbshop</a>
-				<a class="col-lg-4" href="Blogg.html">Blogg</a>
+            <section class="col-md-4 align-right">
+				<a class="col-md-4" href="Webbshop.html"><i class="fa fa-shopping-cart"></i> Webbshop</a>
+				<a class="col-md-4" href="Blogg.html">Blogg</a>
 			</section>
-        </div></div>
-		
-        <section class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1" id="shopping-cart">
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1" id="shopping-cart">
             <!-- Gå till kassan. Här kommer produkterna man valt att ligga med bild och text, välj antal och en knapp med "Gå till kassan" -->
             
             <h3><i class="fa fa-shopping-cart"></i> Kundvagn</h3>
+            
             <div class="row" id="head">
                 <section class="col-md-10 col-md-offset-1">
                     <h4 class="col-md-3">Produkt</h4>
@@ -37,6 +42,7 @@
                     <h4 class="col-md-3">Ta bort</h4>
                 </section>
             </div>
+            
             <div class="row" id="first-row">
                 <section class="col-md-10 col-md-offset-1">
                     <img class="col-md-3" src="#"/>
@@ -55,6 +61,7 @@
                     <a href="#"><i class="fa fa-trash col-md-3"></i></a>
                 </section>
             </div>
+            
             <div class="row" id="second-row">
                 <section class="col-md-10 col-md-offset-1">
                     <img class="col-md-3" src="#"/>
@@ -72,8 +79,10 @@
                     <p class="col-md-3">???</p>
                     <a href="#"><i class="fa fa-trash col-md-3"></i></a>
                 </section>
-            </div>   
-        </section>
+            </div>
+            </section>
+        </div>
+    </div>
     
         <footer>
             <section class="col-md-6">
@@ -96,7 +105,6 @@
                     
                 </div>
             </section>
-        </footer></section>
-        </div></div>
+        </footer>
 </body>
 </html>

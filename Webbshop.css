@@ -1,3 +1,4 @@
+/* Header-elementet */
 .align-left { 
     display: flex;
     justify-content: flex-start;
@@ -8,23 +9,28 @@
     justify-content: flex-end;
 }
 
-footer a {
-    display: block;
-}
-
+/* Webbshop-fönstret */
 #shopping-cart {
     position: relative;
-    border: 1px solid black;
+    border: 2px solid lightblue;
+    border-radius: 5px;
     background-color: lightblue;
+    margin-bottom: 50px;
 }
 [list="antal"] {
     width: 40px;
 }
-
 #head, #first-row, #second-row {
     margin-bottom: 30px;
 }
 .fa-trash {
     font-size: 1.2em;
-    text-align: right;
+}
+
+/* Footer-elementet */
+footer {
+    
+}
+footer a {
+    display: block;
 }
