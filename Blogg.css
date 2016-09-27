@@ -1,0 +1,23 @@
+.align-left { 
+    display: flex;
+    justify-content: flex-start;
+    vertical-align:;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.Blogg {
+        background-image: url(blogg.jpg);
+        background-size: 100% 100%;
+        float: left
+                
+}
+h1{
+    background-color: aquamarine;
+    border: 30px;
+}
+h2{
+    background-color: aquamarine;
+    border; 30px;
+}
