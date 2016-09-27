@@ -10,19 +10,19 @@
     
 <body>
     <!-- denna första row är header-elementet och ska vara samma för alla sidor -->
-    <div class="container">
+    <div class="container header">
         <div class="row">
-			<section class="col-md-4 align-left">
-				<a class="col-md-4" href="Startsida.html"><i class="fa fa-home"></i> Startsida</a>	
-				<a class="col-md-4" href="F%C3%B6retag.html">Om oss</a>
-				<a class="col-md-4" href="Forum.html">Diskussion</a>
+			<section class="col-md-4 col-xs-4 align-left">
+				<a class="col-md-4 col-xs-4" href="Startsida.html"><i class="fa fa-home"></i> Startsida</a>	
+				<a class="col-md-4 col-xs-4" href="F%C3%B6retag.html">Om oss</a>
+				<a class="col-md-4 col-xs-4" href="Forum.html">Diskussion</a>
 			</section>
-            <section class="col-md-4">
-                <img src="Logga 1.png"  />
+            <section class="col-md-4 col-xs-4">
+                <img src="head-sloth.jpg" class="img-responsive"/>
             </section>
-            <section class="col-md-4 align-right">
-				<a class="col-md-4" href="Webbshop.html"><i class="fa fa-shopping-cart"></i> Webbshop</a>
-				<a class="col-md-4" href="Blogg.html">Blogg</a>
+            <section class="col-md-4 col-xs-4 align-right">
+				<a class="col-md-4 col-xs-4" href="Webbshop.html"><i class="fa fa-shopping-cart"></i> Webbshop</a>
+				<a class="col-md-4 col-xs-4" href="Blogg.html">Blogg</a>
 			</section>
         </div>
     </div>
@@ -31,80 +31,116 @@
         <div class="row">
             <section class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1" id="shopping-cart">
             <!-- Gå till kassan. Här kommer produkterna man valt att ligga med bild och text, välj antal och en knapp med "Gå till kassan" -->
-            
-            <h3><i class="fa fa-shopping-cart"></i> Kundvagn</h3>
-            
-            <div class="row" id="head">
-                <section class="col-md-10 col-md-offset-1">
-                    <h4 class="col-md-3">Produkt</h4>
-                    <h4 class="col-md-3">Antal</h4>
-                    <h4 class="col-md-3">Pris</h4>
-                    <h4 class="col-md-3">Ta bort</h4>
-                </section>
-            </div>
-            
-            <div class="row" id="first-row">
-                <section class="col-md-10 col-md-offset-1">
-                    <img class="col-md-3" src="#"/>
-                    <form class="col-md-3">
+                <div class="row">
+                    <section class="col-xs-6" id="rubrik">
+                        <h3><i class="fa fa-shopping-cart"></i> Kundvagn</h3>
+                    </section>
+                    <section class="col-xs-6" id="exit">
+                        <a href="#"><i class="fa fa-times"></i></a>
+                    </section>
+                </div>
+                <div class="row" id="head">
+                    <section class="col-sm-10 col-sm-offset-1 col-xs-12">
+                        <h4 class="col-sm-6 col-xs-6">Produkt</h4>
+                        <h4 class="col-sm-2 col-xs-2">Antal</h4>
+                        <h4 class="col-sm-2 col-xs-2">Pris</h4>
+                        <h4 class="col-sm-2 col-xs-2">Ta bort</h4>
+                    </section>
+                </div>
+
+                <div class="row" id="first-row">
+                    <section class="col-sm-10 col-sm-offset-1 col-xs-12">
+                        <img class="col-sm-6 col-xs-6 img-responsive" src="sloth1.jpg"/>
+                        <form class="col-sm-2 col-xs-2">
+                            <datalist id="antal">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>5+</option>
+                            </datalist>
+                            <input type="text" list="antal"/>
+                        </form>
+                        <p class="col-sm-2 col-xs-2">169:-</p>
+                        <a href="#"><i class="fa fa-trash col-sm-2 col-xs-2"></i></a>
+                    </section>
+                </div>
+
+                <div class="row beskrivning">
+                    <section class="col-sm-6 col-sm-offset-1 col-xs-6">
+                        <p class="beskrivning">Sengångare av plysch</p>
+                    </section>    
+                </div>    
+
+                <div class="row" id="second-row">
+                    <section class="col-sm-10 col-sm-offset-1 col-xs-12">
+                        <img class="col-sm-6 col-xs-6 img-responsive" src="sloth2.jpg"/>
+                        <form class="col-sm-2 col-xs-2">
                         <datalist id="antal">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>5+</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>5+</option>
                         </datalist>
                         <input type="text" list="antal"/>
+                        </form>
+                        <p class="col-sm-2 col-xs-2">249:-</p>
+                        <a href="#"><i class="fa fa-trash col-sm-2 col-xs-2"></i></a>
+                    </section>
+                </div>
+                
+                <div class="row beskrivning">
+                    <section class="col-sm-6 col-sm-offset-1 col-xs-6">
+                        <p class="beskrivning">Planch 100x70 cm</p>
+                    </section>    
+                </div>
+                
+                <div class="row betalinfo">
+                    <form>
+                        <section class="col-xs-12">
+                            <h3>Betalinfo</h3>
+                        </section>
+                        <section class="col-xs-10 col-xs-offset-1">
+                            <p>Välj din bank</p>
+                            <datalist id="bank">
+                                <option>Swedbank</option>
+                                <option>Handelsbanken</option>
+                                <option>Skandiabanken</option>
+                            </datalist>
+                            <input type="text" list="bank">
+                        <section class="col-xs-6"
+                            <input type="text" placeholder="">
+                        </section>
                     </form>
-                    <p class="col-md-3">???</p>
-                    <a href="#"><i class="fa fa-trash col-md-3"></i></a>
-                </section>
-            </div>
-            
-            <div class="row" id="second-row">
-                <section class="col-md-10 col-md-offset-1">
-                    <img class="col-md-3" src="#"/>
-                    <form class="col-md-3">
-                    <datalist id="antal">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>5+</option>
-                    </datalist>
-                    <input type="text" list="antal"/>
-                    </form>
-                    <p class="col-md-3">???</p>
-                    <a href="#"><i class="fa fa-trash col-md-3"></i></a>
-                </section>
-            </div>
+                </div>
+                <div class="row btn-betala">
+                    <section class="col-xs-3 col-xs-offset-10">
+                        <button type="button" class="btn-success">Betala</button>
+                    </section>
+                </div>
             </section>
         </div>
     </div>
     
-        <footer>
-            <section class="col-md-6">
-                <div class="col-md-6">
-                    <h4>Kundservice</h4>
-                    <a href="#">Kontakt</a>
-                    <a href="#">Köpvillkor</a>
-                    <a href="#">Leverans</a>
-                </div>
-                <div class="col-md-6">
-                    <h4>Sociala medier</h4>
-                    <a href="#"><i class="fa fa-facebook-official"></i> Facebook</a>
-                    <a href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
-                    <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
-                    <a href="#"><i class="fa fa-youtube-square"></i> YouTube</a>
-                </div>
-            </section>
-            <section class="col-md-6">
-                <div>
-                    
-                </div>
-            </section>
-        </footer>
+    <footer>
+        <section class="col-xs-12">
+            <div class="col-md-6 col-xs-6">
+                <h4>Kundservice</h4>
+                <a href="#">Kontakt</a>
+                <a href="#">Köpvillkor</a>
+                <a href="#">Leverans</a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <h4>Sociala medier</h4>
+                <a href="#"><i class="fa fa-facebook-official"></i> Facebook</a>
+                <a href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fa fa-youtube-square"></i> YouTube</a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

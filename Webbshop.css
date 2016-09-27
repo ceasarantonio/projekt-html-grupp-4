@@ -2,13 +2,20 @@
 .align-left { 
     display: flex;
     justify-content: flex-start;
-    vertical-align:;
 }
 .align-right {
     display: flex;
     justify-content: flex-end;
 }
-
+section.align-right {
+    display: block;
+    position: relative;
+    bottom: 0px;
+    border: 1px solid black;
+}
+.header {
+    margin-bottom: 3em;
+}
 /* Webbshop-fönstret */
 #shopping-cart {
     position: relative;
@@ -16,6 +23,16 @@
     border-radius: 5px;
     background-color: lightblue;
     margin-bottom: 50px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#rubrik {
+    display: flex;
+    justify-content: flex-start;
+}
+#exit {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.6em;
 }
 [list="antal"] {
     width: 40px;
@@ -23,8 +40,26 @@
 #head, #first-row, #second-row {
     margin-bottom: 30px;
 }
+
 .fa-trash {
     font-size: 1.2em;
+    display: flex;
+    justify-content: flex-end;
+}
+p.beskrivning {
+    text-align: justify;
+    color: darkslategray;
+    padding-left: 14px;
+    margin-bottom: 4em;
+}
+
+.betalinfo {
+    border: 1px dotted gray;
+}
+.btn-betala {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3em;
 }
 
 /* Footer-elementet */
@@ -33,4 +68,8 @@ footer {
 }
 footer a {
     display: block;
+    margin-bottom: 0.4em;
+}
+footer a:last-child {
+    margin-bottom: 2em;
 }
