@@ -15,6 +15,7 @@ section.align-right {
 }
 .header {
     margin-bottom: 3em;
+    white-space: nowrap;
 }
 /* Webbshop-fönstret */
 #shopping-cart {
@@ -37,10 +38,9 @@ section.align-right {
 [list="antal"] {
     width: 40px;
 }
-#head, #first-row, #second-row {
-    margin-bottom: 30px;
+#head section:last-child {
+    white-space: nowrap;
 }
-
 .fa-trash {
     font-size: 1.2em;
     display: flex;
@@ -51,6 +51,7 @@ p.beskrivning {
     color: darkslategray;
     padding-left: 14px;
     margin-bottom: 4em;
+    margin-top: 0.5em;
 }
 
 .betalinfo {
@@ -63,12 +64,16 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
-footer {
-    
+.footer-left {
+    border: 1px dotted black;
+}
+.footer-right {
+    border: 1px dotted black;
 }
 footer a {
     display: block;
     margin-bottom: 0.4em;
+    white-space: nowrap;
 }
 footer a:last-child {
     margin-bottom: 2em;
