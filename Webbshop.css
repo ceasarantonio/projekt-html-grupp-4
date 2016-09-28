@@ -30,6 +30,9 @@ section.align-right {
     display: flex;
     justify-content: flex-start;
 }
+#rubrik h3 {
+    white-space: nowrap;
+}
 #exit {
     display: flex;
     justify-content: flex-end;
@@ -38,6 +41,7 @@ section.align-right {
 [list="antal"] {
     width: 40px;
 }
+
 #head section:last-child {
     white-space: nowrap;
 }
@@ -54,8 +58,19 @@ p.beskrivning {
     margin-top: 0.5em;
 }
 
-.betalinfo {
-    border: 1px dotted gray;
+.betalinfo [type="text"] {
+    margin-top: 0.5em;
+}
+
+#agree {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+[for="agree"] a {
+    text-decoration: none;
+}
+[for="agree"] a:hover {
+    
 }
 .btn-betala {
     display: flex;
@@ -64,12 +79,6 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
-.footer-left {
-    border: 1px dotted black;
-}
-.footer-right {
-    border: 1px dotted black;
-}
 footer a {
     display: block;
     margin-bottom: 0.4em;
