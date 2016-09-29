@@ -1,22 +1,29 @@
-
-.footer {
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    flex: 1 1 auto;
+}
+footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     border: 1px solid red;
-    width: px;
+    width: 400px;
 }
 .footer-left {
-    flex: 1 auto;
+    flex: 1 1 auto;
     width: 200px;
     border: 2px dotted black;
 }
 .footer-right {
-    flex: 1 auto;
+    flex: 1 1 auto;
     width: 200px;
     border: 2px dotted black;
 }
-.footer a {
+footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
