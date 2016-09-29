@@ -104,11 +104,23 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
+@media {}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 750px;
+}
+.footer-left {
+    flex: 1 auto;
+}
+.footer-right {
+    flex: 1 auto;
+}
 footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-}
-footer a:last-child {
-    margin-bottom: 2em;
 }

@@ -1,0 +1,23 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: px;
+}
+.footer-left {
+    flex: 1 auto;
+    width: 200px;
+    border: 2px dotted black;
+}
+.footer-right {
+    flex: 1 auto;
+    width: 200px;
+    border: 2px dotted black;
+}
+.footer a {
+    display: block;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
+}
