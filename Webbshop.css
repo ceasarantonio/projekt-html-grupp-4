@@ -70,10 +70,7 @@
     white-space: nowrap;
 }
 */
-.fa-trash {
-    font-size: 1.2em;
-    display: flex;
-    justify-content: flex-end;
+
 }
 p.beskrivning {
     text-align: justify;
@@ -111,4 +108,8 @@ footer a {
 }
 footer a:last-child {
     margin-bottom: 2em;
+}
+[src="trashcan.png"]{
+    height: 2.5em;
+    width: 2.5em;
 }
