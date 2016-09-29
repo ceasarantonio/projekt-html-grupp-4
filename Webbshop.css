@@ -59,7 +59,10 @@
     justify-content: flex-end;
     font-size: 1.6em;
 }
-[list="antal"] {
+[list="antal1"] {
+    width: 40px;
+}
+[list="antal2"] {
     width: 40px;
 }
 /*
