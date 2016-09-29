@@ -8,35 +8,35 @@
     display: flex;
     justify-content: flex-end;
 }
-   .hero-navigation {
-        position: relative;
-        width: 100%;
-    }
-    .hero-navigation img {
-        width: 100%;
-    }
-    .hero-link-list {
-        left: 0;
-        list-style: none;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        text-align: center;
-    }
-    .hero-link-item {
-        display: inline-block;
-        padding: 10px;
-        margin-right: 10px;
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-    .hero-link-item:last-child {
-        margin-right: 0;
-    }
-    .hero-link-item a {
-        color: white;
-        font-weight: bold;
-    }
+.hero-navigation {
+    position: relative;
+    width: 100%;
+}
+.hero-navigation img {
+    width: 100%;
+}
+.hero-link-list {
+    left: 0;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.hero-link-item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-link-item:last-child {
+    margin-right: 0;
+}
+.hero-link-item a {
+    color: white;
+    font-weight: bold;
+}
 /* Webbshop-fönstret */
 #shopping-cart {
     position: relative;
@@ -44,6 +44,7 @@
     border-radius: 5px;
     background-color: lightblue;
     margin-bottom: 50px;
+    margin-top: 50px;
     box-shadow: 10px 10px 5px #888888;
 }
 #rubrik {
@@ -61,10 +62,11 @@
 [list="antal"] {
     width: 40px;
 }
-
+/*
 #head section:last-child {
     white-space: nowrap;
 }
+*/
 .fa-trash {
     font-size: 1.2em;
     display: flex;

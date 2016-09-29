@@ -81,12 +81,12 @@
                         <img class="col-sm-6 col-xs-6 img-responsive" src="sloth2.jpg"/>
                         <form class="col-sm-2 col-xs-2">
                         <datalist id="antal">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>5+</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>5+</option>
                         </datalist>
                         <input type="text" list="antal" placeholder="1"/>
                         </form>
@@ -127,13 +127,13 @@
                     </div>
                     <div class="row">
                         <section class="col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                            <input type="text" placeholder="Clearing-nummer">
+                            <input type="text" name="clearingnummer" maxlength="4" placeholder="Clearing-nummer">
                         </section>
-                        <section class="col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                            <input type="text" placeholder="Kortnummer">
+                        <section class="col-sm-3 col-xs-10 col-xs-offset-1">
+                            <input type="text" name="kortnummer" maxlength="16" placeholder="Kortnummer">
                         </section>
-                        <section class="col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                            <input type="text" placeholder="CVV" title="Tresiffrig kod på baksidan av ditt kort">
+                        <section class="col-sm-2 col-xs-10 col-xs-offset-1">
+                            <input type="text" placeholder="CVV" name="cvv" size="3" maxlength="3" title="Tresiffrig kod på baksidan av ditt kort">
                         </section>
                     </div>
                     <div class="row">
