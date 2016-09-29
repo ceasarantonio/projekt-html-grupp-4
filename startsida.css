@@ -38,6 +38,16 @@
         color: white;
         font-weight: bold;
     }
+    .head-text {
+        padding: 10px;
+        position: absolute;
+        width: auto;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        font-weight: bold;
+        
+    }
 
 /*Footer*/
 footer a {
