@@ -1,12 +1,17 @@
-.align-left { 
-    display: flex;
-    justify-content: flex-start;
-    vertical-align:;
-}
-.align-right {
-    display: flex;
-    justify-content: flex-end;
-}
+
+    body {
+        background-color: #382c12;
+        color: antiquewhite;
+    }
+    .align-left { 
+        display: flex;
+        justify-content: flex-start;
+        vertical-align:;
+    }
+    .align-right {
+        display: flex;
+        justify-content: flex-end;
+    }
    .hero-navigation {
         position: relative;
         width: 100%;
@@ -36,11 +41,11 @@
         color: white;
         font-weight: bold;
     }
-footer a {
-    display: block;
-    margin-bottom: 0.4em;
-    white-space: nowrap;
-}
-footer a:last-child {
-    margin-bottom: 2em;
-}
+    footer a {
+        display: block;
+        margin-bottom: 0.4em;
+        white-space: nowrap;
+    }
+    footer a:last-child {
+        margin-bottom: 2em;
+    }
