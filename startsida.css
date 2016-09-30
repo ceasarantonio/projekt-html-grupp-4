@@ -55,11 +55,26 @@
     }
 
 /*Footer*/
-footer a {
+ footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+    .footer-left {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    }
+    .footer-right {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    white-space: nowrap;
+    }
+    footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-}
-footer a:last-child {
-    margin-bottom: 2em;
-}
+    }

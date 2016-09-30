@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*Header*/
 .hero-navigation {
     position: relative;
@@ -38,7 +38,6 @@
 }
 .oss {
     flex: 1 1 auto;
-    border: 2px solid red;
     padding: 20px;
 
 }
@@ -50,20 +49,16 @@
 }
 .louice {
     flex: 1 1 auto;
-    border: 2px dotted black;
     padding: 20px;
     min-width: 100px;
     max-width: 500px;
 }
 .daniel {
     flex: 1 1 auto;
-    border: 2px dotted blue;
     padding: 20px;
     min-width: 100px;
     max-width: 500px;
 }
-=======
-
     body {
         background-color: #382c12;
         color: antiquewhite;
@@ -106,12 +101,27 @@
         color: white;
         font-weight: bold;
     }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+    .footer-left {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    }
+    .footer-right {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    white-space: nowrap;
+    }
     footer a {
-        display: block;
-        margin-bottom: 0.4em;
-        white-space: nowrap;
+    display: block;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
     }
-    footer a:last-child {
-        margin-bottom: 2em;
-    }
->>>>>>> aca56b13347d11bb6830546bea94cd54412d0f73
+
