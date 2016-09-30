@@ -1,13 +1,17 @@
 /*Header*/
-.align-left { 
+    body {
+    background-color: #382c12;
+    color: antiquewhite;
+    }
+    .align-left { 
     display: flex;
     justify-content: flex-start;
     vertical-align:;
-}
-.align-right {
+    }
+    .align-right {
     display: flex;
     justify-content: flex-end;
-}
+    }
    .hero-navigation {
         position: relative;
         width: 100%;

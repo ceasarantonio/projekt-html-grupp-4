@@ -1,12 +1,13 @@
-.align-left { 
+
+    .align-left { 
     display: flex;
     justify-content: flex-start;
     vertical-align:;
-}
-.align-right {
+    }
+    .align-right {
     display: flex;
     justify-content: flex-end;
-}
+    }
    .hero-navigation {
         position: relative;
         width: 100%;
@@ -38,7 +39,8 @@
     }
     #blogg1{
         float: left;
-        margin: 0px 20px 10px 0px; 
+        margin: 0px 20px 10px 0px;
+        
     }
     #blogg2{
         float: left;
@@ -46,11 +48,15 @@
         width: 200px;
         height: 100px;
     }
-footer a {
+    footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-}
-footer a:last-child {
+    }
+    footer a:last-child {
     margin-bottom: 2em;
-}
+    }
+    body {
+    background-color: #382c12;
+    color: antiquewhite;
+    }   

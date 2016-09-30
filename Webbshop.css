@@ -1,4 +1,8 @@
 /* Header-elementet */
+    body {
+        background-color: #382c12;
+        color: antiquewhite
+    }
 .align-left { 
     display: flex;
     justify-content: flex-start;
