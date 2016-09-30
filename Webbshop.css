@@ -6,8 +6,7 @@
 .align-left { 
     display: flex;
     justify-content: flex-start;
-    vertical-align:;
-}
+    }
 .align-right {
     display: flex;
     justify-content: flex-end;
@@ -69,12 +68,9 @@
 [list="antal2"] {
     width: 40px;
 }
-/*
+
 #head section:last-child {
     white-space: nowrap;
-}
-*/
-
 }
 p.beskrivning {
     text-align: justify;
@@ -105,7 +101,6 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
-    @media {}
     footer {
     display: flex;
     flex-direction: row;
