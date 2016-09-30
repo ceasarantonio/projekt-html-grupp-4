@@ -20,7 +20,7 @@ footer {
 }
 .footer-right {
     flex: 1 1 auto;
-    width: 200px;
+    wwidth: 200px;
     border: 2px dotted black;
 }
 footer a {
