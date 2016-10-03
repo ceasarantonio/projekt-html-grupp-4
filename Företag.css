@@ -1,0 +1,126 @@
+body {
+    background-color: #382c12;
+    color: antiquewhite;
+}
+/*Header*/
+.hero-navigation {
+    position: relative;
+    width: 100%;
+}
+.hero-navigation img {
+    width: 100%;
+}
+.hero-link-list {
+    left: 0;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.hero-link-item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-link-item:last-child {
+    margin-right: 0;
+}
+.hero-link-item a {
+    color: white;
+    font-weight: bold;
+}
+.om-oss-item{
+    color: #45CEFF!important;    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.oss {
+    flex: 1 1 auto;
+    padding: 20px;
+}
+.flexdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.louice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    flex: 1 1 auto;
+    padding: 20px;
+    min-width: 100px;
+    max-width: 500px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #3b3a18;
+    margin: 20px;
+}
+.img-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    flex: 1 1 auto;
+}
+.louice img {
+    max-height: 300px;
+    max-width: 300px;
+}
+.daniel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    flex: 1 1 auto;
+    padding: 20px;
+    min-width: 100px;
+    max-width: 500px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #87573e;
+    margin: 20px;
+}
+.daniel img{
+    max-height: 300px;
+    max-width: 300px;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.footer-left {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+}
+.footer-right {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    white-space: nowrap;
+}
+footer a {
+    display: block;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
+}
+@media screen and (max-width: 390px) {
+    body { min-width: 390px; }
+}

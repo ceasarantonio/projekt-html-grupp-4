@@ -1,0 +1,26 @@
+body {
+    background-color: #382c12;
+    color: antiquewhite;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.footer-left {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+}
+.footer-right {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+}
+footer a {
+    display: block;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
+}
