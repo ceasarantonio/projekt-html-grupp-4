@@ -39,6 +39,9 @@ body {
 .hero-link-item a {
     color: white;
     font-weight: bold;
+    }
+.start-item{
+    color: blue!important;
 }
 .head-text {
     padding: 10px;

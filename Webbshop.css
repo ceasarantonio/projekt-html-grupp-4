@@ -40,6 +40,9 @@ body {
     color: white;
     font-weight: bold;
 }
+.webbshop-item{
+    color: blue!important;
+}
 /* Webbshop-fönstret */
 #shopping-cart {
     position: relative;

@@ -32,6 +32,9 @@ body {
     color: white;
     font-weight: bold;
 }
+.om-oss-item{
+    color: blue!important;    
+}
 
 .flex-container {
     display: flex;
@@ -79,6 +82,10 @@ body {
     border-radius: 5px;
     background-color: ;
     margin: 20px;
+}
+.daniel img{
+    max-height: 400px;
+    max-width: 200px;
 }
 /*FOOTER*/
 footer {
