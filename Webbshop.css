@@ -1,8 +1,8 @@
+body {
+    background-color: #382c12;
+    color: antiquewhite;
+}
 /* Header-elementet */
-    body {
-        background-color: #382c12;
-        color: antiquewhite
-    }
 .align-left { 
     display: flex;
     justify-content: flex-start;
@@ -43,16 +43,17 @@
 /* Webbshop-fönstret */
 #shopping-cart {
     position: relative;
-    border: 2px solid lightblue;
+    border: 2px solid #6A9262;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: #6A9262;
     margin-bottom: 50px;
     margin-top: 50px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #0A0B1E;
 }
 #rubrik {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 25px;
 }
 #rubrik h3 {
     white-space: nowrap;
@@ -60,7 +61,14 @@
 #exit {
     display: flex;
     justify-content: flex-end;
-    font-size: 1.6em;
+    font-size: 2em;
+}
+#exit a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+#exit a:hover {
+    color: crimson;
 }
 [list="antal1"] {
     width: 40px;
@@ -68,9 +76,13 @@
 [list="antal2"] {
     width: 40px;
 }
-
-#head section:last-child {
-    white-space: nowrap;
+[src="trashcan.png"]{
+    height: 2.5em;
+    width: 2.5em;
+}
+[src="trashcan.png"]:hover {
+    height: 3em;
+    width: 3em;
 }
 p.beskrivning {
     text-align: justify;
@@ -79,20 +91,22 @@ p.beskrivning {
     margin-bottom: 4em;
     margin-top: 0.5em;
 }
-
+#rad1 {
+    margin-top: 25px;
+}
 .betalinfo [type="text"] {
     margin-top: 0.5em;
 }
-
 #agree {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
 [for="agree"] a {
     text-decoration: none;
+    color: #075CB2;
 }
 [for="agree"] a:hover {
-    
+    color: #45CEFF;
 }
 .btn-betala {
     display: flex;
@@ -101,30 +115,27 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
-    footer {
+footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    }
-    .footer-left {
+}
+.footer-left {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
-    }
-    .footer-right {
+}
+.footer-right {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
     white-space: nowrap;
-    }
-    footer a {
+}
+footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-    }
-    [src="trashcan.png"]{
-    height: 2.5em;
-    width: 2.5em;
+    text-decoration: none;
+    color: /*=================*/;
 }
