@@ -1,75 +1,78 @@
-    body {
+body {
     background-color: #382c12;
     color: antiquewhite;
-    }   
-    .align-left { 
+}
+/*HEADER*/
+.align-left { 
     display: flex;
     justify-content: flex-start;
-    }
-    .align-right {
+}
+.align-right {
     display: flex;
     justify-content: flex-end;
-    }
-   .hero-navigation {
-        position: relative;
-        width: 100%;
-    }
-    .hero-navigation img {
-        width: 100%;
-    }
-    .hero-link-list {
-        left: 0;
-        list-style: none;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        text-align: center;
-    }
-    .hero-link-item {
-        display: inline-block;
-        padding: 10px;
-        margin-right: 10px;
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-    .hero-link-item:last-child {
-        margin-right: 0;
-    }
-    .hero-link-item a {
-        color: white;
-        font-weight: bold;
-    }
-    #blogg1{
-        float: left;
-        margin: 0px 20px 10px 0px;
-        
-    }
-    #blogg2{
-        float: left;
-        margin: 0px 20px 10px 0px;
-        width: 200px;
-        height: 100px;
-    }
-  footer {
+}
+.hero-navigation {
+    position: relative;
+    width: 100%;
+}
+.hero-navigation img {
+    width: 100%;
+}
+.hero-link-list {
+    left: 0;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.hero-link-item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-link-item:last-child {
+    margin-right: 0;
+}
+.hero-link-item a {
+    color: white;
+    font-weight: bold;
+}
+
+#blogg1{
+    float: left;
+    margin: 0px 20px 10px 0px;
+
+}
+#blogg2{
+    float: left;
+    margin: 0px 20px 10px 0px;
+    width: 200px;
+    height: 100px;
+}
+/*FOOTER*/
+footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
-    }
-    .footer-left {
+}
+.footer-left {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
-    }
-    .footer-right {
+}
+.footer-right {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
     white-space: nowrap;
-    }
-    footer a {
+}
+footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-    }
+}

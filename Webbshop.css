@@ -1,8 +1,8 @@
+body {
+    background-color: #382c12;
+    color: antiquewhite
+}
 /* Header-elementet */
-    body {
-        background-color: #382c12;
-        color: antiquewhite
-    }
 .align-left { 
     display: flex;
     justify-content: flex-start;
@@ -68,7 +68,6 @@
 [list="antal2"] {
     width: 40px;
 }
-
 #head section:last-child {
     white-space: nowrap;
 }
@@ -79,11 +78,9 @@ p.beskrivning {
     margin-bottom: 4em;
     margin-top: 0.5em;
 }
-
 .betalinfo [type="text"] {
     margin-top: 0.5em;
 }
-
 #agree {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -92,7 +89,7 @@ p.beskrivning {
     text-decoration: none;
 }
 [for="agree"] a:hover {
-    
+    /* nånting här?*/
 }
 .btn-betala {
     display: flex;
@@ -101,30 +98,29 @@ p.beskrivning {
 }
 
 /* Footer-elementet */
-    footer {
+footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    }
-    .footer-left {
+}
+.footer-left {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
-    }
-    .footer-right {
+}
+.footer-right {
     flex: 1 1 auto;
     max-width: 100px;
     min-width: 100px;
     white-space: nowrap;
-    }
-    footer a {
+}
+footer a {
     display: block;
     margin-bottom: 0.4em;
     white-space: nowrap;
-    }
-    [src="trashcan.png"]{
+}
+[src="trashcan.png"]{
     height: 2.5em;
     width: 2.5em;
 }

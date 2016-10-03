@@ -41,7 +41,6 @@ body {
 .oss {
     flex: 1 1 auto;
     padding: 20px;
-
 }
 .flexdiv {
     display: flex;
@@ -64,4 +63,28 @@ body {
     max-width: 500px;
     border: 2px solid green;
     border-radius: 5px;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.footer-left {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+}
+.footer-right {
+    flex: 1 1 auto;
+    max-width: 100px;
+    min-width: 100px;
+    white-space: nowrap;
+}
+footer a {
+    display: block;
+    margin-bottom: 0.4em;
+    white-space: nowrap;
 }
