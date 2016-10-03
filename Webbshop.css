@@ -3,14 +3,6 @@ body {
     color: antiquewhite;
 }
 /* Header-elementet */
-.align-left { 
-    display: flex;
-    justify-content: flex-start;
-    }
-.align-right {
-    display: flex;
-    justify-content: flex-end;
-}
 .hero-navigation {
     position: relative;
     width: 100%;
@@ -50,7 +42,7 @@ body {
     border-radius: 5px;
     background-color: #6A9262;
     margin-top: 50px;
-    box-shadow: 10px 10px 5px #0A0B1E;
+    
 }
 #rubrik {
     display: flex;
@@ -79,9 +71,11 @@ body {
 }
 [list="antal1"] {
     width: 40px;
+    color: black;
 }
 [list="antal2"] {
     width: 40px;
+    color: black;
 }
 [src="trashcan.png"]{
     height: 2.5em;
@@ -145,5 +139,14 @@ footer a {
     margin-bottom: 0.4em;
     white-space: nowrap;
     text-decoration: none;
-    color: /*=================*/;
+}
+
+@media screen and (min-width: 768px) {
+    #shopping-cart {
+        box-shadow: 10px 10px 5px #0A0B1E;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body { min-width: 400px; }
 }
