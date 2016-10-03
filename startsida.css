@@ -3,14 +3,6 @@ body {
     color: antiquewhite;
 }
 /*Header*/
-.align-left { 
-    display: flex;
-    justify-content: flex-start;
-}
-.align-right {
-    display: flex;
-    justify-content: flex-end;
-}
 .hero-navigation {
     position: relative;
     width: 100%;
@@ -78,6 +70,6 @@ footer a {
     margin-bottom: 0.4em;
     white-space: nowrap;
 }
-@media screen and (max-width: 400px) {
-    body { min-width: 400px; }
+@media screen and (max-width: 390px) {
+    body { min-width: 390px; }
 }
