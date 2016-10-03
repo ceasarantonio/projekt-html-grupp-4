@@ -147,6 +147,6 @@ footer a {
     }
 }
 
-@media screen and (max-width: 400px) {
-    body { min-width: 400px; }
+@media screen and (max-width: 390px) {
+    body { min-width: 390px; }
 }
