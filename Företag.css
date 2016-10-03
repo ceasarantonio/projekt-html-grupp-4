@@ -67,6 +67,10 @@ body {
     border: 2px solid green;
     border-radius: 5px;
 }
+.daniel img{
+    max-height: 400px;
+    max-width: 200px;
+}
 /*FOOTER*/
 footer {
     display: flex;
