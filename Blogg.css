@@ -31,14 +31,16 @@ body {
     color: white;
     font-weight: bold;
 }
-.blogg-item{
-    color: blue!important;
+.blogg-item {
+    color: #45CEFF!important;
+
 }
-#blogg1{
+#blogg1 {
     float: left;
     margin: 0px 20px 10px 0px;
+
 }
-#blogg2
+#blogg2 {
     float: left;
     margin: 0px 20px 10px 0px;
     width: 200px;
