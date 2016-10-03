@@ -70,6 +70,11 @@ body {
 #exit a:hover {
     color: crimson;
 }
+[src="sloth1.jpg"], [src="sloth2.jpg"] {
+    border: 1px solid darkslategray;
+    padding: 5px;
+    background-color: #ccc;
+}
 [list="antal1"] {
     width: 40px;
 }
