@@ -5,7 +5,6 @@
     .align-left { 
     display: flex;
     justify-content: flex-start;
-    vertical-align:;
     }
     .align-right {
     display: flex;
@@ -40,12 +39,16 @@
         color: white;
         font-weight: bold;
     }
+    .blogg-item{
+        color: aqua!important;
+              
+    }
     #blogg1{
         float: left;
         margin: 0px 20px 10px 0px;
         
     }
-    #blogg2{
+    #blogg2
         float: left;
         margin: 0px 20px 10px 0px;
         width: 200px;
