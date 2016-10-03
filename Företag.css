@@ -74,13 +74,18 @@ body {
     max-width: 200px;
 }
 .daniel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
     flex: 1 1 auto;
     padding: 20px;
     min-width: 100px;
     max-width: 500px;
     border: 2px solid green;
     border-radius: 5px;
-    background-color: ;
+    background-color: #87573e;
     margin: 20px;
 }
 .daniel img{
