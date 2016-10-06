@@ -44,17 +44,14 @@ body {
     margin-top: 50px;
 }
 #rubrik {
-    display: flex;
-    justify-content: flex-start;
     margin-bottom: 25px;
 }
 #rubrik h3 {
     white-space: nowrap;
 }
 #exit {
-    display: flex;
-    justify-content: flex-end;
     font-size: 2em;
+    text-align: right;
 }
 #exit a {
     text-decoration: none;
@@ -96,6 +93,7 @@ p.beskrivning {
 }
 .betalinfo [type="text"] {
     margin-top: 0.5em;
+    color: black;
 }
 #agree {
     margin-top: 1.5em;
