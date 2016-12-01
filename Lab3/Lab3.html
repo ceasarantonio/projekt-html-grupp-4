@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="Lab3.css">
+    <script src="Lab3.js"></script>
+  <title>JS Bin</title>
+</head>
+<body>
+    <div>
+      <div class="dropdown">
+        <button id='menu' class="dropbtn">Figurer</button>
+          <div id="myDropdown" class="dropdown-content">
+            <button id="cirkelbtn" class="button1">Paint a Circle</button>
+            <button id="trianglebtn" class="button1">Paint a Triangle</button>
+            <button  id="rectanglebtn" class="button1" >Paint a Rectangle</button>
+            <button id="clearcanvasbtn" class="button1" >Clear Canvas</button>
+          </div>
+      </div>
+      <div id="status">status: Välj en figur</div>
+        <div id="xposition">X:</div>
+        <div id="yposition">Y:</div>
+      
+     
+    <br>
+      <canvas id="myCanvas" width="400px" height="400px" style="text-align:center">Don´t support Canvas</canvas>
+      <div id="color">
+        <select id="pickcolor">
+              <option id="choose" value="choose">Välj färg</option>
+              <option id="Rosa" value="#ff69b4">#ff69b4</option>
+              <option id="Gul"  value="#ffff00">#ffff00</option>
+              <option id="Blå" value="#0000ff">#0000ff</option>
+              <option id="Röd" value="#ff0000">#ff0000</option>
+        </select>
+             Hex:<input id="hex" type=text maxlength="7">
+                  <input type="color" id="colorpallet">
+        
+          
+        <button id="choosecolor">lägg till färg</button>
+        </div>
+        <button id="json">Export to Json</button>
+        <div id="textruta"></div>
+        
+    </div> 
+  
+</body>
+</html>
+
